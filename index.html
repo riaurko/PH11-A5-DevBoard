@@ -87,7 +87,7 @@
                             <img src="./images/calendar.png" alt="Calendar" class="group-hover:scale-110 transition-transform duration-300">
                         </div>
                         <div>
-                            <h4 class="text-2xl font-bold"><span class="font-normal">Sat</span> <br class="xl:hidden 2xl:inline">Mar 1 2025</h4>
+                            <h4 class="text-2xl font-bold"><span class="font-normal"></span> <br class="xl:hidden 2xl:inline"><span></span></h4>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                 <div id="dashboard-divider" class="border border-blue-200 border-dashed border-opacity-55"></div>
                 <!--? Dashboard's Main Part containing 6 recent Pending Tasks -->
                 <div id="dashboard-tasks" class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 2xl:gap-10">
-                    <div class="p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
+                    <div class="task-card p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
                         <div class="space-y-4">
                             <p class="company px-3 py-1 bg-[#F0FFFF] rounded-md w-fit">SecureByte</p>
                             <h4 class="title text-2xl font-medium">Transform into Database</h4>
@@ -107,10 +107,10 @@
                                 <p class="text-sm text-gray-500">Deadline</p>
                                 <p class="font-medium">13 March 2025</p>
                             </div>
-                            <button type="button" class="shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
+                            <button type="button" class="complete-btn shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
                         </div>
                     </div>
-                    <div class="p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
+                    <div class="task-card p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
                         <div class="space-y-4">
                             <p class="company px-3 py-1 bg-[#F0FFFF] rounded-md w-fit">Programming Hero</p>
                             <h4 class="title text-2xl font-medium">Enable HelpDesk</h4>
@@ -122,10 +122,10 @@
                                 <p class="text-sm text-gray-500">Deadline</p>
                                 <p class="font-medium">04 March 2025</p>
                             </div>
-                            <button type="button" class="shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
+                            <button type="button" class="complete-btn shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
                         </div>
                     </div>
-                    <div class="p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
+                    <div class="task-card p-6 space-y-3 rounded-xl bg-[#E0F0FF]">
                         <div class="space-y-4">
                             <p class="company px-3 py-1 bg-[#F0FFFF] rounded-md w-fit">Phitron</p>
                             <h4 class="title text-2xl font-medium">Add Dark Theme</h4>
@@ -137,7 +137,7 @@
                                 <p class="text-sm text-gray-500">Deadline</p>
                                 <p class="font-medium">07 March 2025</p>
                             </div>
-                            <button type="button" class="shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
+                            <button type="button" class="complete-btn shadow shadow-primary hover:shadow-md hover:shadow-blue-600 active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-shadow">Complete</button>
                         </div>
                     </div>
                 </div>
@@ -151,6 +151,7 @@
                     <button type="button" class="hover:scale-105 active:scale-[95%] hover:shadow hover:shadow-primary active:shadow-none active:cursor-click hover:cursor-hover px-5 py-2 bg-primary rounded-md text-[#F0FFFF] font-medium transition-transform">Clear History</button>
                     <div class="border border-blue-200 border-dashed w-full border-opacity-55"></div>
                 </div>
+                <div id="activities" class="space-y-6"></div>
             </section>
         </main>
         <script src="./scripts/script.js"></script>

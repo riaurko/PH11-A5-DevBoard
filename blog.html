@@ -52,6 +52,7 @@
             </nav>
         </header>
         <main class="px-36 space-y-6">
+            <h2 class="text-4xl font-bold text-center">Blogs</h2>
             <!--? Frequently Asked Questions -->
             <div class="faq-box space-y-4 p-6 rounded-lg bg-[#F0FFFF]">
                 <div class="question flex items-center gap-x-4">
@@ -89,7 +90,29 @@
                 <div class="border border-blue-200 border-dashed border-opacity-55"></div>
                 <div class="answer flex gap-x-4">
                     <img src="./images/answer.png" alt="Answer" class="self-start">
-                    <p class="text-lg"></p>
+                    <p class="text-lg">Event Delegation is a concept where you add a single EventListener to the target parent element instead of adding event listeners to all the childs. Like I used it in every Task Card in the Home Page to track the 'Complete' Button.</p>
+                </div>
+            </div>
+            <div class="faq-box space-y-4 p-6 rounded-lg bg-[#F0FFFF]">
+                <div class="question flex items-center gap-x-4">
+                    <img src="./images/question.png" alt="Question">
+                    <h3 class="text-3xl font-bold">What is event bubbling in DOM?</h3>
+                </div>
+                <div class="border border-blue-200 border-dashed border-opacity-55"></div>
+                <div class="answer flex gap-x-4">
+                    <img src="./images/answer.png" alt="Answer" class="self-start">
+                    <p class="text-lg">Event Bubbling is a process where the event starts from the target element and then bubbles up to its parent element until it reaches the root/html element (<code class="bg-slate-700 text-blue-400 p-1 text-[1rem] rounded-md">document</code>)</p>
+                </div>
+            </div>
+            <div class="faq-box space-y-4 p-6 rounded-lg bg-[#F0FFFF]">
+                <div class="question flex items-center gap-x-4">
+                    <img src="./images/question.png" alt="Question">
+                    <h3 class="text-3xl font-bold">How do you create, add, and remove elements using JavaScript?</h3>
+                </div>
+                <div class="border border-blue-200 border-dashed border-opacity-55"></div>
+                <div class="answer flex gap-x-4">
+                    <img src="./images/answer.png" alt="Answer" class="self-start">
+                    <p class="text-lg">We can create an element using the <code class="bg-slate-700 text-blue-400 p-1 text-[1rem] rounded-md">document.createElement(tagName: string)</code> method. And can add the element inside an element as a child using <code class="bg-slate-700 text-blue-400 p-1 text-[1rem] rounded-md">parentElement.appendChild(element: string)</code> method, but note that it appends the child at the last. And can remove a child using <code class="bg-slate-700 text-blue-400 p-1 text-[1rem] rounded-md">parentElement.appendChild(child: string)</code> method.</p>
                 </div>
             </div>
         </main>

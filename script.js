@@ -13,6 +13,12 @@ todayDayEl.innerText = todayDay;
 todayDateEl.innerText = `${todayDate} ${thisMonth} ${thisYear}`;
 
 
+//! Changing Color Theme Dynamically
+const colors = ['#E9E0FF', '#FFE0E0', '#E0FFE0', '#FFFFE0', '#FFF0E0', '#E0FFFF'];
+document.querySelector("#theme-switcher-container img").addEventListener('click', function() {
+    document.body.style.backgroundColor = colors[Math.floor(Math.random() * 6)];
+}) 
+
 
 let taskCount = 0;
 //! Adding EventListeners to Complete Task Buttons
